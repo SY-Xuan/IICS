@@ -3,7 +3,7 @@
 ![Cuda 9.2](https://img.shields.io/badge/cuda-9.2-yellowgreen)
 
 # IICS
-Pytorch implementation of Paper "Intra-Inter Camera Similarity for Unsupervised Person Re-Identification" (CVPR 2021)
+Pytorch implementation of Paper ["Intra-Inter Camera Similarity for Unsupervised Person Re-Identification"](https://arxiv.org/abs/2103.11658) (CVPR 2021)
 
 ![fig1](./img/fig1.png)
 
