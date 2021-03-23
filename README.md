@@ -22,7 +22,7 @@ Pytorch implementation of Paper "Intra-Inter Camera Similarity for Unsupervised 
 ### 3. Prepare dataset
 Download Market1501, DukeMTMC-ReID, MSMT17 from website and put the zip file under the directory like
 ```
-MMT/examples/data
+./data
 ├── dukemtmc
 │   └── raw
 |       └──DukeMTMC-reID.zip
