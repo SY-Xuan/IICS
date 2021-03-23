@@ -73,12 +73,14 @@ sh ./script/train_market_threshold.sh
 ## Citations
 If you find this code useful for your research, please cite our paper:
 
+```
 @article{xuan2021intrainter,
       title={Intra-Inter Camera Similarity for Unsupervised Person Re-Identification}, 
       author={Shiyu Xuan and Shiliang Zhang},
       year={2021},
       journal={arXiv preprint arXiv:2103.11658},
 }
+```
 ## Contact me
 If you have any questions about this code or paper, feel free to contact me at
 shiyu_xuan@stu.pku.edu.cn.
