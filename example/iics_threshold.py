@@ -24,7 +24,6 @@ from reid.utils.serialization import load_checkpoint, save_checkpoint
 from reid.cluster_utils import get_intra_cam_cluster_result_threshold as get_intra_cam_cluster_result
 from reid.cluster_utils import get_inter_cam_cluster_result_threshold as get_inter_cam_cluster_result
 from reid.utils.data.sampler import RandomIdentitySampler
-import wandb
 
 torch.multiprocessing.set_sharing_strategy('file_system')
 
@@ -129,10 +128,7 @@ def main(args):
         get_data(args.dataset, args.split, args.data_dir, args.height,
                  args.width, args.batch_size * 8, args.workers,
                  )
-    run = wandb.init(project="clean", dir="./wandb",
-                     name=args.logs_dir.split("/")[-1], reinit=True)
-
-    wandb.config.update(args)
+    
     # Create model
     model = models.create("ft_net_inter",
                           num_classes=num_classes, stride=args.stride)
