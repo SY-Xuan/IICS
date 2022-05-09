@@ -2,6 +2,8 @@
 ![PyTorch 1.3.1](https://img.shields.io/badge/pytorch-1.3.1-yellow)
 ![Cuda 9.2](https://img.shields.io/badge/cuda-9.2-yellowgreen)
 
+**😄 The code of journal version of this work is released [IIDS](https://github.com/SY-Xuan/IIDS). We strongly recommend you to use our journal version which has a much higher performance.**
+
 # IICS
 Pytorch implementation of Paper ["Intra-Inter Camera Similarity for Unsupervised Person Re-Identification"](https://arxiv.org/abs/2103.11658) (CVPR 2021)
 
